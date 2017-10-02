@@ -27,7 +27,7 @@ namespace Financas.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Nome = c.String(nullable: false),
-                        Email = c.Int(nullable: false),
+                        Email = c.String(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             

@@ -46,11 +46,8 @@ D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Fina
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\System.Web.Webpages.Razor.xml
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\System.Web.Helpers.xml
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\System.Web.Mvc.xml
-D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.csprojResolveAssemblyReference.cache
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.dll
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.pdb
-D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.Migrations.TabelasIniciais.resources
-D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.csproj.GenerateResource.Cache
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\roslyn\csc.exe
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\roslyn\csc.exe.config
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\roslyn\csc.rsp
@@ -104,3 +101,13 @@ E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Fina
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.csproj.GenerateResource.Cache
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.dll
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.pdb
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.dll
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.Web.Common.dll
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.Web.Mvc.dll
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\WebActivatorEx.dll
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.xml
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.Web.Common.xml
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.Web.Mvc.xml
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.csprojResolveAssemblyReference.cache
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.Migrations.TabelasIniciais.resources
+D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.csproj.GenerateResource.Cache

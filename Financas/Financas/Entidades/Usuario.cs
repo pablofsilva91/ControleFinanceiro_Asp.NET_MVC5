@@ -14,7 +14,8 @@ namespace Financas.Entidades
         public string Nome { get; set; }
 
         [Required, EmailAddress]
-        public int Email { get; set; }
+        //[Required]
+        public string Email { get; set; }
 
     }
 }
