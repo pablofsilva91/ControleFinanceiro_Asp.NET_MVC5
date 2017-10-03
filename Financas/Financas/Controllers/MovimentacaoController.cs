@@ -32,7 +32,7 @@ namespace Financas.Controllers
             return View(movimentacaoDAO.Lista());
         }
 
-        public ActionResult Adiciona (Movimentacao movimentacao)
+        public ActionResult Adiciona(Movimentacao movimentacao)
         {
             if (ModelState.IsValid)
             {

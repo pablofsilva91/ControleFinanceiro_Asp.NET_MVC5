@@ -6,11 +6,12 @@
     @Html.TextBoxFor(m => m.Valor, new {@class = "form-control" })
     @Html.ValidationMessageFor(m => m.Valor)
 
-    @Html.LabelFor(m => m.Id, "Usuario")
-    @Html.DropDownListFor(m => m.Id,
+    @Html.LabelFor(m => m.UsuarioId, "Usuario")
+    @Html.DropDownListFor(m => m.UsuarioId,
         new SelectList(ViewBag.Usuarios, "Id", "Nome"),
         new { @class = "form-control" })
-    @Html.ValidationMessageFor(m => m.Id)
+    @Html.ValidationMessageFor(m => m.UsuarioId)
+
 
     @Html.LabelFor(m => m.Tipo, "Tipo")
     @Html.EnumDropDownListFor(m => m.Tipo, new { @class = "form-control" })

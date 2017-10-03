@@ -139,9 +139,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710022023577_TabelasIniciais.cs" />
-    <Compile Include="Migrations\201710022023577_TabelasIniciais.Designer.cs">
-      <DependentUpon>201710022023577_TabelasIniciais.cs</DependentUpon>
+    <Compile Include="Migrations\201710031623057_TabelasIniciais.cs" />
+    <Compile Include="Migrations\201710031623057_TabelasIniciais.Designer.cs">
+      <DependentUpon>201710031623057_TabelasIniciais.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,8 +172,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710022023577_TabelasIniciais.resx">
-      <DependentUpon>201710022023577_TabelasIniciais.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710031623057_TabelasIniciais.resx">
+      <DependentUpon>201710031623057_TabelasIniciais.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

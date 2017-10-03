@@ -15,6 +15,8 @@ namespace Financas.Entidades
 
         public Tipo Tipo { get; set; }
 
+        public int UsuarioId { get; set; }
+
         public virtual Usuario Usuario { get; set; }
 
 

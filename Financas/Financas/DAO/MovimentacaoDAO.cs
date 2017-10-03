@@ -15,9 +15,9 @@ namespace Financas.DAO
             this.context = context;
         }
 
-        public void Adiciona(Movimentacao mocimentacao)
+        public void Adiciona(Movimentacao movimentacao)
         {
-            context.Movimentacoes.Add(mocimentacao);
+            context.Movimentacoes.Add(movimentacao);
             context.SaveChanges();
         }
 
