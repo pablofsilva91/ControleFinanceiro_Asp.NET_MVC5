@@ -118,3 +118,6 @@ E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Fina
 E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\Ninject.Web.Mvc.xml
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.Migrations.TabelasIniciais.resources
 D:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\obj\Debug\Financas.csproj.GenerateResource.Cache
+E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\WebMatrix.Data.dll
+E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\WebMatrix.WebData.dll
+E:\Desenvolvimento\Projetos\GitHub\ControleFinanceiro_Asp.NET_MVC5\Financas\Financas\bin\WebMatrix.WebData.xml
