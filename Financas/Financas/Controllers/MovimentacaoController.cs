@@ -46,5 +46,12 @@ namespace Financas.Controllers
                 return View("Form");
             }
         }
+
+        public ActionResult MovimentacaoPorUsuario(int? usuarioId)
+        {
+            model.Usuarios = usuarioDAO.Lista();
+            model.Movimentacoes = movimentacaoDAO.BuscaPorUsuario(model.UsurioID);
+            return View(model);
+        }
     }
 }
