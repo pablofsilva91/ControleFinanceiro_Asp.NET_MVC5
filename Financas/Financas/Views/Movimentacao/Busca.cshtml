@@ -1,0 +1,67 @@
+﻿@model Financas.Models.BuscaMovimentacoesModel
+<h2>Busca de movimentações</h2>
+@using (Html.BeginForm("Busca", "Movimentacao", FormMethod.Get))
+{
+    <div class="row">
+        <fieldset>
+            <legend>Data da movimentação</legend>
+            <div class="col-sm-6">
+                @Html.LabelFor(b => b.DataMinima, "Mínima")
+                @Html.TextBoxFor(b => b.DataMinima, new { @class = "form-control" })
+            </div>
+            <div class="col-sm-6">
+                @Html.LabelFor(b => b.DataMaxima, "Máxima")
+                @Html.TextBoxFor(b => b.DataMaxima, new { @class = "form-control" })
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Valor da movimentação</legend>
+            <div class="col-sm-6">
+                @Html.LabelFor(b => b.ValorMinimo, "Mínimo")
+                @Html.TextBoxFor(b => b.ValorMinimo, new { @class = "form-control" })
+            </div>
+            <div class="col-sm-6">
+                @Html.LabelFor(b => b.ValorMaximo, "Máximo")
+                @Html.TextBoxFor(b => b.ValorMaximo, new { @class = "form-control" })
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Usuário e tipo</legend>
+            <div class="col-sm-6">
+                @Html.LabelFor(b => b.Tipo, "Tipo")
+                @Html.EnumDropDownListFor(b => b.Tipo, new { @class = "form-control" })
+            </div>
+            <div class="col-sm-6">
+
+                @Html.LabelFor(b => b.UsuarioId, "Usuário")
+                @Html.DropDownListFor(b => b.UsuarioId,
+                    new SelectList(Model.Usuarios, "Id", "Nome"), "Escolha um usuário", new { @class = "form-control" })
+            </div>
+        </fieldset>
+    </div>
+
+
+    <input type="submit" value="Buscar" />
+}
+
+
+<table class="table table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Data</th>
+        <th>Valor</th>
+        <th>Tipo</th>
+        <th>Usuário</th>
+    </tr>
+    @foreach (var m in Model.Movimentacoes)
+    {
+        <tr>
+            <td>@m.Id</td>
+            <td>@m.Data</td>
+            <td>@m.Valor</td>
+            <td>@m.Tipo</td>
+            <td>@m.Usuario.Nome</td>
+        </tr>
+    }
+</table>

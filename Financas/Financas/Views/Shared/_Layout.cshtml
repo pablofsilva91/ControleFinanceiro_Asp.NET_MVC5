@@ -10,11 +10,18 @@
 </head>
 <body>
     @Html.Partial("_MenuSuperior")
-    <div calss="container">
+    <div class="container">
         <main class="col-sm-8">
             @RenderBody()
         </main>
-
+        <aside class="col-sm-4">
+            <h3>Acesso rápido</h3>
+            <ul>
+                <li>@Html.ActionLink("Movimentações por usuário", "MovimentacoesPorUsuario", "Movimentacao")</li>
+                <li>@Html.ActionLink("Busca de movimentações", "Busca", "Movimentacao")</li>
+            </ul>
+        </aside>
     </div>
+
 </body>
 </html>
